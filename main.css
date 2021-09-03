@@ -1,0 +1,110 @@
+/* css syntax= selector:{property:value} */
+/* selector resembles (elements,class and IDs) */
+*{
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+    /* class */
+    .hero-text {
+      font-size: 32px;
+    font-family: "Lato",sans-serif;
+    text-align: justify; 
+    }
+
+    /* id */
+    #logo-text {
+        color:white;
+        display: inline;
+    }
+    .container{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .test{
+        padding: 0 18em;
+    }
+
+    .navbar{ 
+        background:black;
+    }
+
+    .flex-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+    }
+    .navigation-links{
+        display: inline;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .white-text{
+        color: white;
+    }
+    .flex{
+        display: flex;
+    }
+    
+
+    .hero-section{
+        height: 100vh;
+        display: flex;
+      flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(/images/photo-1558369178-6556d97855d0.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+     
+    }
+
+    li{
+        list-style: none;
+    }
+    .mt{
+        margin-top: 2rem;
+    }
+
+    .work-flex{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+       }
+    .big-text{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: black;
+        font-size: 600;
+    }
+    .lorem-text{
+        font-size: 1.5rem;
+    }
+    a{
+        text-decoration: none;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+    .about-text{
+        margin: 1rem 0;
+        font-size: 16px;
+    }
+    .about-flex{
+        display: flex;
+        background-image: url(/images/photo-1578950435899-d1c1bf932ab2.jpg);
+        color: teal;
+    }
+    .about-section{
+        width: 800px;
+    }
+
+    .footer-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
